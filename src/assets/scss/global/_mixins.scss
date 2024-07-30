@@ -1,0 +1,38 @@
+@mixin media-320px-1rem {
+  @media only screen and (max-width: 320px) {
+    font-size: calc(0.5rem + (16 - 8) * ((100vw - 100px) / (320 - 100)));
+  }
+}
+@mixin media-320px-2_5rem {
+  @media only screen and (max-width: 320px) {
+    font-size: calc(1rem + (40 - 16) * ((100vw - 100px) / (320 - 100)));
+  }
+}
+@mixin media-320px-3rem {
+  @media only screen and (max-width: 320px) {
+    font-size: calc(1rem + (48 - 16) * ((100vw - 100px) / (320 - 100)));
+  }
+}
+@mixin media-320px-0_7rem {
+  @media only screen and (max-width: 320px) {
+    font-size: calc(0.5rem + (11.2 - 8) * ((100vw - 100px) / (320 - 100)));
+  }
+}
+@mixin media-320px-5rem-min-width {
+  @media only screen and (max-width: 320px) {
+    min-width: calc(1.5rem + (88 - 24) * ((100vw - 100px) / (320 - 100)));
+  }
+}
+@mixin media-320px-1_5rem-min-height {
+  @media only screen and (max-width: 320px) {
+    min-height: calc(1rem + (24 - 16) * ((100vw - 100px) / (320 - 100)));
+  }
+}
+
+@mixin template-calc {
+  @media (max-width: 550px) and (min-width: 426px) {
+    min-width: calc(5rem + (160 - 80) * ((100vw - 426px) / (550 - 426)));
+    min-height: calc(1.5rem + (40 - 24) * ((100vw - 426px) / (550 - 426)));
+    font-size: calc(0.7rem + (16 - 11.2) * ((100vw - 426px) / (550 - 426)));
+  }
+}

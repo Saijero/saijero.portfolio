@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/horizonplayersclub/wp-content/reactpress/apps/saijero/build/static/css/main.2ef9027e.css",
+    "main.js": "/horizonplayersclub/wp-content/reactpress/apps/saijero/build/static/js/main.a32f91d6.js",
+    "static/js/787.5a753469.chunk.js": "/horizonplayersclub/wp-content/reactpress/apps/saijero/build/static/js/787.5a753469.chunk.js",
+    "index.html": "/horizonplayersclub/wp-content/reactpress/apps/saijero/build/index.html",
+    "main.2ef9027e.css.map": "/horizonplayersclub/wp-content/reactpress/apps/saijero/build/static/css/main.2ef9027e.css.map",
+    "main.a32f91d6.js.map": "/horizonplayersclub/wp-content/reactpress/apps/saijero/build/static/js/main.a32f91d6.js.map",
+    "787.5a753469.chunk.js.map": "/horizonplayersclub/wp-content/reactpress/apps/saijero/build/static/js/787.5a753469.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ef9027e.css",
+    "static/js/main.a32f91d6.js"
+  ]
+}

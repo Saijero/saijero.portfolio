@@ -1,0 +1,22 @@
+/*______________________________________
+        (* // INTERNAL FOLDER // *)
+_________________________________________*/
+
+// @forward "./global/mediaquery";
+@forward "./global/animation";
+@forward "./global/default";
+@forward "./global/fonts";
+@forward "./global/hooks";
+@forward "./global/mixins";
+@forward "./global/variables";
+
+/*______________________________________
+        (* // EXTERNAL FOLDER // *)
+_________________________________________*/
+
+@forward "../../pages/home/home";
+@forward "../../pages/landing/landing";
+@forward "../../pages/sample/sample";
+@forward "../../pages/about/about-me";
+@forward "../../pages/about/extra/extra-cotent-call";
+@forward "../../pages/other/other-info";

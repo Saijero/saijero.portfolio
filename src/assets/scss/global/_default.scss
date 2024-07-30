@@ -1,0 +1,206 @@
+@use "./fonts" as fnt;
+@use "./variables" as var;
+
+$default-weight: 400;
+$default-height: 60px;
+$default-width: 200px;
+$default-ul-ol-gap: 10px;
+$default-font-weight: 400;
+$default-font-size-a: 15px;
+$default-line-height: 1.75;
+$default-font-size-svg: 20px;
+$default-letter-spacing: 1.75px;
+
+.saijero-page-landing {
+  // site remove default
+  cursor: var(--url-cursor-pointer-blue), auto;
+  scroll-behavior: smooth;
+  background-size: cover;
+  height: var.$percent-100;
+
+  &::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+    scrollbar-width: none;
+  }
+
+  .site-container {
+    overflow: visible;
+
+    .site-header,
+    .site-footer {
+      pointer-events: none;
+      display: none !important;
+    }
+  }
+
+  .site-inner {
+    padding: 0;
+    margin: auto;
+    display: initial;
+    max-width: var.$px1920;
+    width: var.$percent-100;
+  }
+
+  //   default added
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: 1px solid red;
+  }
+
+  p {
+    line-height: $default-line-height;
+  }
+
+  img {
+    max-width: var.$px1200;
+    width: var.$percent-100;
+    vertical-align: baseline !important;
+  }
+
+  span {
+    font-size: var.$px20;
+    color: var(--FFFFFF);
+  }
+
+  a,
+  ul,
+  ol,
+  li {
+    list-style: none;
+    text-decoration: none;
+  }
+
+  ol,
+  ul {
+    margin: auto;
+    display: flex;
+    gap: $default-ul-ol-gap;
+  }
+
+  small {
+    color: var(--FFFFFF);
+    font-family: fnt.$Poppins-family;
+    font-size: var.$px20 - var.$px02;
+  }
+
+  body {
+    font-size: var.$px20 - var.$px02;
+    font-weight: normal;
+    font-family: fnt.$Pridi-family;
+  }
+
+  a,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    color: var(--FFFFFF);
+    font-weight: $default-weight;
+    font-family: fnt.$Poppins-family;
+    letter-spacing: $default-letter-spacing;
+  }
+
+  button,
+  a {
+    border-radius: var.$px08;
+  }
+
+  svg {
+    font-size: var.$px30 + var.$px05;
+    color: var(--FFFFFF);
+  }
+
+  a,
+  option {
+    cursor: var(--url-cursor-pointer-blue-select), auto;
+  }
+
+  select {
+    width: var.$px80;
+    cursor: var(--url-cursor-pointer-blue-select), auto;
+  }
+
+  button {
+    cursor: var(--url-cursor-pointer-blue-select), auto !important;
+  }
+
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    line-height: $default-line-height;
+  }
+
+  button,
+  input[type="button"],
+  input[type="reset"],
+  input[type="submit"],
+  .button {
+    text-transform: uppercase;
+    background-color: var(--FFFFFF);
+    border: none;
+    cursor: pointer;
+    font-size: none;
+    font-weight: none;
+    padding: none;
+    text-align: none;
+    text-decoration: none;
+    white-space: none;
+    width: none;
+    color: none;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    margin: auto var.$px05;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    box-shadow: 0px var.$px10 var.$px20 var(--160708);
+
+    svg {
+      aspect-ratio: 1/1;
+      color: var(--D11D1D);
+      font-size: $default-font-size-svg;
+    }
+
+    a {
+      color: var(--E4DF04);
+      width: $default-width;
+      height: $default-height;
+      background: var(--120101);
+      font-size: $default-font-size-a;
+    }
+  }
+
+  .wp-child-wrap {
+    position: absolute;
+    width: var.$px50;
+    height: var.$px50;
+    pointer-events: none;
+    background-size: cover;
+    z-index: var.$number-1;
+    box-shadow: 0 0 0 #000;
+    transform: var.$scale-07;
+    background-repeat: no-repeat;
+    transition: transform var.$ease-005s;
+    background: var(--url-cursor-pointer-blue);
+  }
+
+  .wp-toggle-page {
+    .wp-main-wrap {
+      margin: 0 auto;
+      overflow: hidden;
+      max-width: var.$px1600;
+      width: var.$percent-100;
+    }
+  }
+}

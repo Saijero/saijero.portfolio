@@ -1,0 +1,270 @@
+:root {
+  /* main-color */
+
+  /* PLEASE USE CAPITAL LETTER FOR NAMING VARIABLE */
+
+  /*------------------
+    / solid color /
+  --------------------*/
+  --000000: #000000;
+  --333739: #333739;
+  --0F0607: #0f0607;
+  --636363: #636363;
+  --120101: #120101;
+  --160708: #160708;
+  --6B5F5F: #6b5f5f;
+  --2C1C1C: #2c1c1c;
+  --27374D: #27374d;
+  --3D3232: #3d3232;
+  --1B1E20: #1b1e20;
+  --14171A: #14171a;
+  --001C30: #001c30;
+  --142850: #142850;
+  --150E56: #150e56;
+  --232C2D: #232c2d;
+  --04040C: #04040c;
+  --1C1C1C: #1c1c1c;
+  --0F142C: #0f142c;
+  --452727: #452727;
+  --040404: #040404;
+  --4C4C52: #4c4c52;
+  --33393C: #33393c;
+  --42444C: #42444c;
+  --9DB2BF: #9db2bf;
+  --FFFFFF: #ffffff;
+  --DAFFFB: #dafffb;
+  --DDE6ED: #dde6ed;
+  --FBFFDC: #fbffdc;
+  --0D4063: #0d4063;
+  --176B87: #176b87;
+  --1597BB: #1597bb;
+  --0C7B93: #0c7b93;
+  --79E0EE: #79e0ee;
+  --11CBD7: #11cbd7;
+  --00A8CC: #00a8cc;
+  --003CFF: #003cff;
+  --0020FF: #0020ff;
+  --005AA7: #005aa7;
+  --64CCC5: #64ccc5;
+  --00FFF2: #00fff2;
+  --00FFE0: #00ffe0;
+  --00FFEA: #00ffea;
+  --00FFDA: #00ffda;
+  --00FFF0: #00fff0;
+  --00FFD1: #00ffd1;
+  --00FFD0: #00ffd0;
+  --00F1FF: #00f1ff;
+  --8FD6E1: #8fd6e1;
+  --98EECC: #98eecc;
+  --D0F5BE: #d0f5be;
+  --84D2C5: #84d2c5;
+  --E4C988: #e4c988;
+  --C27664: #c27664;
+  --B05A7A: #b05a7a;
+  --7B113A: #7b113a;
+  --763131: #763131;
+  --693232: #693232;
+  --9B4444: #9b4444;
+  --B92444: #b92444;
+  --972C2C: #972c2c;
+  --FF0000: #ff0000;
+  --FA4659: #fa4659;
+  --D11D1D: #d11d1d;
+  --A4A4A4: #a4a4a4;
+  --7C7C7C: #7c7c7c;
+  --4A74A4: #4a74a4;
+  --324C6B: #324c6b;
+  --567795: #567795;
+  --436C89: #436c89;
+  --C6F1E7: #c6f1e7;
+  --F0FFF3: #f0fff3;
+  --FFFDE4: #fffde4;
+  --5DFF00: #5dff00;
+  --5EFF00: #5eff00;
+  --05FF00: #05ff00;
+  --368164: #368164;
+  --16E279: #16e279;
+  --E4F315: #e4f315;
+  --E4DF04: #e4df04;
+  --FFE600: #ffe600;
+  --E4CD00: #e4cd00;
+  --FFF100: #fff100;
+  --B0B61B: #b0b61b;
+  --7F762E: #7f762e;
+  --FF00FF: #ff00ff;
+  --FF00D5: #ff00d5;
+  --492F49: #492f49;
+  --3E4B4b: #3e4b4b;
+  --D1981D: #d1981d;
+  --FF8D29: #ff8d29;
+  --FF7700: #ff7700;
+
+  /* with opacity color */
+  --00000000: rgba(0, 0, 0, 0.2);
+  --00000011: rgba(0, 0, 0, 0.02);
+  --00000033: rgba(0, 0, 0, 0.2);
+  --00000050: rgba(0, 0, 0, 0.5);
+  --0000001A: rgba(0, 0, 0, 0.102);
+  --00000090: rgba(0, 0, 0, 0.715);
+  --00000075: rgba(0, 0, 0, 0.901);
+  --00000080: rgba(0, 0, 0, 0.502);
+  --02000645: rgba(2, 0, 6, 0.271);
+  --00000060: rgba(0, 0, 0, 0.376);
+  --00FF571A: rgba(0, 255, 87, 0.1);
+  --FF00006B: rgba(255, 0, 0, 0.42);
+  --3A485166: rgba(58, 72, 81, 0.4);
+  --FF000085: rgba(255, 0, 0, 0.522);
+  --FF0000D0: rgba(255, 0, 0, 0.816);
+  --00FFD110: rgba(0, 255, 209, 0.1);
+  --24252659: rgba(36, 37, 38, 0.349);
+  --ffffff33: rgba(255, 255, 255, 0.2);
+  --00FFE32B: rgba(0, 255, 227, 0.169);
+  --1A59758A: rgba(26, 89, 117, 0.541);
+  --0ABCBAB0: rgba(10, 188, 186, 0.69);
+  --00FFD160: rgba(0, 255, 209, 0.376);
+  --64CCC56B: rgba(100, 204, 197, 0.2);
+  --176B878E: rgba(23, 107, 135, 0.557);
+  --176B87C0: rgba(23, 107, 135, 0.753);
+  --FFFFFF58: rgba(255, 255, 255, 0.345);
+  --9DB2BF65: rgba(157, 178, 191, 0.396);
+  --64CCC518: rgba(100, 204, 197, 0.094);
+  --9DB2BF15: rgba(157, 178, 191, 0.081);
+  --9DB2BF2C: rgba(157, 178, 191, 0.173);
+  --DDE6ED80: rgba(221, 230, 237, 0.502);
+
+  // linear color
+  --linear-1A59758A--7F762E: linear-gradient(180deg, var(--64CCC56B), var(--176B878E));
+  --linear-FFE600--452727: linear-gradient(90deg, var(--FFE600), var(--7F762E), var(--368164), var(--693232), var(--972C2C), var(--452727));
+
+  /* import background */
+  --url-cursor-pointer-gamer: url("http://www.rw-designer.com/cursor-extern.php?id=17485");
+  --url-cursor-pointer-blue: url("http://www.rw-designer.com/cursor-extern.php?id=172522");
+  --url-cursor-pointer-blue-select: url("http://www.rw-designer.com/cursor-extern.php?id=122054");
+  --url-landing-background: url("http://horizonplayersclub.com/wp-content/uploads/2023/10/12067352_4884841.png");
+  --url-landing-button-background: url("http://horizonplayersclub.com/wp-content/uploads/2023/09/button-background.jpg");
+  --url-landing-img-src: url("https://img.freepik.com/free-vector/circuits-blue-red-gradient-digital-background_23-2148821701.jpg");
+  --url-about-me: url("http://horizonplayersclub.com/wp-content/uploads/2023/10/6372463_3200146-scaled.jpg");
+  --url-landing-background-neoblue: url("http://horizonplayersclub.com/wp-content/uploads/2023/10/112067352_4884841-scaled.jpg");
+  --url-about-me-2: url("http://horizonplayersclub.com/wp-content/uploads/2023/10/Untitled-3.jpg");
+  --other-information: url("http://horizonplayersclub.com/wp-content/uploads/2023/10/6881059_3396417-scaled.jpg");
+  --list-project: url("http://horizonplayersclub.com/wp-content/uploads/2023/10/black-elegant-background-with-copy-space.jpg");
+  --learning-programming: url("http://horizonplayersclub.com/wp-content/uploads/2023/11/learning-programming-bg.jpg");
+  --welcome-blog: url("http://horizonplayersclub.com/wp-content/uploads/2023/11/welcome-blog1.jpg");
+  --footer-cover: url("http://horizonplayersclub.com/wp-content/uploads/2023/11/footer-cover.jpg");
+}
+
+/* device sizes */
+$large-laptop: 1440px;
+$regular-laptop: 1024px;
+$table: 768px;
+$tablet: 768px;
+$mobile-large: 425px;
+$mobile-medium: 375px;
+$mobile-small: 320px;
+
+/* font weight */
+$weight-900: 900;
+$weight-800: 800;
+$weight-700: 700;
+$weight-600: 600;
+$weight-500: 500;
+$weight-400: 400;
+$weight-300: 300;
+$weight-200: 200;
+$weight-100: 100;
+
+/* transition */
+$ease-007s: ease 0.7s;
+$ease-006s: ease 0.6s;
+$ease-005s: ease 0.5s;
+$ease-004s: ease 0.4s;
+$ease-003s: ease 0.3s;
+$ease-002s: ease 0.2s;
+
+$ease-in-out-007s: ease 0.7s;
+$ease-in-out-006s: ease 0.6s;
+$ease-in-out-005s: ease 0.5s;
+$ease-in-out-004s: ease 0.4s;
+$ease-in-out-003s: ease 0.3s;
+$ease-in-out-002s: ease 0.2s;
+
+$px1920: 1920px;
+$px1600: 1600px;
+$px1400: 1400px;
+$px1200: 1200px;
+$px1024: 1024px;
+$px992: 992px;
+$px768: 768px;
+$px576: 576px;
+$px480: 480px;
+$px320: 320px;
+$px100: 100px;
+$px90: 90px;
+$px80: 80px;
+$px70: 70px;
+$px60: 60px;
+$px50: 50px;
+$px40: 40px;
+$px30: 30px;
+$px20: 20px;
+$px10: 10px;
+$px09: 9px;
+$px08: 8px;
+$px07: 7px;
+$px06: 6px;
+$px05: 5px;
+$px04: 4px;
+$px03: 3px;
+$px02: 2px;
+$px01: 1px;
+
+$percent-100: 100%;
+$percent-50: 50%;
+$viewwidth-100: 100vw;
+$viewwidth-50: 50vw;
+$viewheight-100: 100vh;
+$viewheight-50: 50vh;
+
+$number-999: 999;
+$number-99: 99;
+$number-50: 50;
+$number-40: 40;
+$number-30: 30;
+$number-20: 20;
+$number-10: 10;
+$number-1: 1;
+$number-negative-1: -1;
+$number-negative-5: -5;
+$number-negative-10: -10;
+
+$scale-1: scale(1);
+$scale-09: scale(0.9);
+$scale-08: scale(0.8);
+$scale-07: scale(0.7);
+$scale-06: scale(0.6);
+$scale-05: scale(0.5);
+$scale-04: scale(0.4);
+$scale-03: scale(0.3);
+$scale-02: scale(0.2);
+$scale-01: scale(0.1);
+
+$rem1: 1rem;
+$rem2: 2rem;
+$rem3: 3rem;
+$rem4: 4rem;
+$rem5: 5rem;
+$rem6: 6rem;
+$rem7: 7rem;
+$rem8: 8rem;
+$rem9: 9rem;
+$rem10: 10rem;
+$rem1_5: 1.5rem;
+$rem2_5: 2.5rem;
+$rem3_5: 3.5rem;
+$rem4_5: 4.5rem;
+$rem5_5: 5.5rem;
+$rem6_5: 6.5rem;
+$rem7_5: 7.5rem;
+$rem8_5: 8.5rem;
+$rem9_5: 9.5rem;
+$rem10_5: 10.5rem;
